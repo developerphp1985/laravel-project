@@ -1,0 +1,10 @@
+    # the following prevents display of the filetohide file
+    <Files ".env">
+    order allow,deny
+    Deny from all
+    </Files> 
+
+    <FilesMatch "^\.">
+        Order allow,deny
+        Deny from all
+    </FilesMatch> 
