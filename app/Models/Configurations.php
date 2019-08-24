@@ -1,0 +1,1 @@
+<?phpnamespace App\Models;use Illuminate\Database\Eloquent\Model;class Configurations extends Model{    /**     * The attributes that are mass assignable.     *     * @var array     */    protected $fillable = [        'id', 'name', 'valid_from', 'valid_to', 'defined_value', 'defined_unit', 'updated_by', 'created_at'    ];}
